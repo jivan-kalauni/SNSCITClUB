@@ -83,3 +83,9 @@
 .col-12 .exe-img {
   width: 100%;
 }
+.col-12 p iframe {
+  width: 100%;
+}
+.apply-form input {
+  width: 80%;
+}
