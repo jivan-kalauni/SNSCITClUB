@@ -82,53 +82,68 @@
         </div>
     </div>
 
-    <div class="container-fluid p-4">
-        <div class="row">
-            <div class="col-12">
-                <form action="" class="apply-form px-5">
-                    <div class="mb-3">
-                        <label for="name">Full Name :</label>
-                        <input type="text" name="name" id="name" width="70%">
-                    </div>
-                    <div class="mb-3">
-                        <label for="year">Year:</label>
-                        <select name="year" id="year">
-                            <option value="first">First</option>
-                            <option value="second">Second</option>
-                            <option value="third">Third</option>
-                            <option value="fourth">Fourth</option>
-                        </select>
-                        <label for="sem">Semester:</label>
-                        <select name="sem" id="sem">
-                            <option value="first">First</option>
-                            <option value="second">Second</option>
-                            <option value="third">Third</option>
-                            <option value="fourth">Fourth</option>
-                            <option value="fifth">Fifth</option>
-                            <option value="sixth">Sixth</option>
-                            <option value="seventh">Seventh</option>
-                            <option value="eighth">Eighth</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="program">Program:</label>
-                        <select name="program" id="program">
-                            <option value="csit">CSIT</option>
-                            <option value="bit">BIT</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="contact">Contact No.:</label>
-                        <input type="text" name="contact" id="contact">
-                    </div>
-                    <div class="mb-3">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+    <div class="container-fluid p-5">
+        <h2 class="text-center pb-4">SNSC IT CLUB MEMBER REGISTRATION</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="fname" class="form-label">First Name<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" id="fname" required>
             </div>
-        </div>
+            <div class="col-md-6">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lname" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" required>
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-md-6">
+                <label for="year" class="form-label">Year</label>
+                <select id="year" class="form-select">
+                    <option selected>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="sem" class="form-label">Semester</label>
+                <select id="sem" class="form-select">
+                    <option selected>First</option>
+                    <option>Second</option>
+                    <option>Third</option>
+                    <option>Fourth</option>
+                    <option>Fifth</option>
+                    <option>Sixth</option>
+                    <option>Seventh</option>
+                    <option>Eighth</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="program" class="form-label">Program</label>
+                <select id="program" class="form-select">
+                    <option selected>B.Sc. CSIT</option>
+                    <option>BIT</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone">
+            </div>
+
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </div>
 
     <div class="container-fluid text-bg-secondary px-3   ">

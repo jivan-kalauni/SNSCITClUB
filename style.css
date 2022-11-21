@@ -1,7 +1,14 @@
 .logo img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+}
+.header-section,
+.footer-section {
+  background-color: rgb(25, 121, 169);
+}
+.footer-section {
+  color: white;
 }
 
 .carousel-item img {
